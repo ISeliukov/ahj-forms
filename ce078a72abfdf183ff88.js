@@ -1,0 +1,1 @@
+import PopOver from"./PopOver";document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector("#ComponentContainer");new PopOver(e,{title:"Какой-то заголовок",text:"Будьте добры, прочитайте этот текст. Этот текст очень важен для вас."}).bindToDOM(),console.log("Component started!")}));
